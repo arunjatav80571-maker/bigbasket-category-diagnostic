@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0819.2015                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='148a6a697ae4b52f999246aa876656eec66a226107c407019b2460113ec82aed' _.fcp.WorkbookFingerprinting.true...creator-author-id='148a6a697ae4b52f999246aa876656eec66a226107c407019b2460113ec82aed' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='148a6a697ae4b52f999246aa876656eec66a226107c407019b2460113ec82aed' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='148a6a697ae4b52f999246aa876656eec66a226107c407019b2460113ec82aed' original-version='18.1' source-build='2026.2.2 (20262.26.0819.2015)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='monthly_category_revenue - Sheet2' inline='true' name='federated.00cg4m61pga186144nbba0hzymoo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='monthly_category_revenue - Sheet2' name='textscan.0n2f90r0bbeghv176pgpf14n3uui'>
+            <connection class='textscan' directory='C:/Users/mraka/Downloads' filename='monthly_category_revenue - Sheet2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0n2f90r0bbeghv176pgpf14n3uui' name='monthly_category_revenue - Sheet2.csv' table='[monthly_category_revenue - Sheet2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='integer' name='target\_revenue\_inr&quot;' ordinal='1' />
+            <column datatype='integer' name='actual\_revenue' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[monthly_category_revenue - Sheet2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[monthly_category_revenue - Sheet2.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target\_revenue\_inr&quot;</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[target\_revenue\_inr&quot;]</local-name>
+            <parent-name>[monthly_category_revenue - Sheet2.csv]</parent-name>
+            <remote-alias>target\_revenue\_inr&quot;</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actual\_revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[actual\_revenue]</local-name>
+            <parent-name>[monthly_category_revenue - Sheet2.csv]</parent-name>
+            <remote-alias>actual\_revenue</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='monthly_category_revenue - Sheet2.csv' datatype='table' name='[__tableau_internal_object_id__].[monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958]' role='measure' type='quantitative' />
+      <column caption='Actual\ Revenue' datatype='integer' name='[actual\_revenue]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Target\ Revenue\ Inr&quot;' datatype='integer' name='[target\_revenue\_inr&quot;]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/mraka/AppData/Local/Temp/TableauTemp/#TableauTemp_047qqx51r5uldo104db1o0ihwc9y.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/14/2026 06:25:05 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>category</remote-alias>
+              <ordinal>0</ordinal>
+              <family>monthly_category_revenue - Sheet2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>target\_revenue\_inr&quot;</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[target\_revenue\_inr&quot;]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>target\_revenue\_inr&quot;</remote-alias>
+              <ordinal>1</ordinal>
+              <family>monthly_category_revenue - Sheet2.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>actual\_revenue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[actual\_revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>actual\_revenue</remote-alias>
+              <ordinal>2</ordinal>
+              <family>monthly_category_revenue - Sheet2.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='monthly_category_revenue - Sheet2.csv' id='monthly_category_revenue - Sheet2.csv_EAF4290D606E4819BAE692E3BC294958'>
+            <properties context=''>
+              <relation connection='textscan.0n2f90r0bbeghv176pgpf14n3uui' name='monthly_category_revenue - Sheet2.csv' table='[monthly_category_revenue - Sheet2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='category' ordinal='0' />
+                  <column datatype='integer' name='target\_revenue\_inr&quot;' ordinal='1' />
+                  <column datatype='integer' name='actual\_revenue' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='monthly_category_revenue - Sheet2' name='federated.00cg4m61pga186144nbba0hzymoo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00cg4m61pga186144nbba0hzymoo'>
+            <column caption='Actual\ Revenue' datatype='integer' name='[actual\_revenue]' role='measure' type='quantitative' />
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[actual\_revenue]' derivation='Sum' name='[sum:actual\_revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00cg4m61pga186144nbba0hzymoo].[none:category:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.00cg4m61pga186144nbba0hzymoo].[sum:actual\_revenue:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{4B6FCB2D-D29B-4DD9-BB3C-E61303CE8CE7}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00cg4m61pga186144nbba0hzymoo].[none:category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00cg4m61pga186144nbba0hzymoo].[none:category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{581ACC78-4392-48B6-94DD-06ECCCB58B37}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='133'>
+      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
+      JuG/5gAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
