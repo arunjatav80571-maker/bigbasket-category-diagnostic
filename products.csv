@@ -1,0 +1,32 @@
+product_id,product_name,category,supplier,unit_price_inr
+1,Banana 1kg,Fruits & Vegetables,FreshFarms Co,50
+2,Tomato 1kg,Fruits & Vegetables,FreshFarms Co,40
+3,Onion 1kg,Fruits & Vegetables,GreenValley Traders,35
+4,Apple 1kg,Fruits & Vegetables,GreenValley Traders,180
+5,Spinach Bunch,Fruits & Vegetables,FreshFarms Co,25
+6,Toned Milk 1L,Dairy & Eggs,DairyBest Ltd,60
+7,Paneer 200g,Dairy & Eggs,DairyBest Ltd,90
+8,Eggs (12pc),Dairy & Eggs,CountryEggs Farms,84
+9,Curd 400g,Dairy & Eggs,DairyBest Ltd,45
+10,Butter 100g,Dairy & Eggs,CountryEggs Farms,55
+11,Potato Chips 90g,Snacks & Beverages,SnackHub India,30
+12,Cola 750ml,Snacks & Beverages,SnackHub India,45
+13,Biscuit Pack,Snacks & Beverages,BakeHouse Supplies,35
+14,Fruit Juice 1L,Snacks & Beverages,SnackHub India,110
+15,Namkeen 200g,Snacks & Beverages,BakeHouse Supplies,60
+16,Shampoo 340ml,Personal Care,CarePlus Distributors,220
+17,Toothpaste 150g,Personal Care,CarePlus Distributors,95
+18,Soap Bar 125g,Personal Care,CarePlus Distributors,40
+19,Hand Wash 250ml,Personal Care,CarePlus Distributors,99
+20,Face Wash 100g,Personal Care,CarePlus Distributors,150
+21,Dish Wash Bar,Household Essentials,HomeEssentials Traders,20
+22,Detergent 1kg,Household Essentials,HomeEssentials Traders,130
+23,Floor Cleaner 1L,Household Essentials,HomeEssentials Traders,145
+24,Toilet Cleaner 500ml,Household Essentials,HomeEssentials Traders,89
+25,Garbage Bags (30pc),Household Essentials,HomeEssentials Traders,75
+26,Bread Loaf,Bakery,BakeHouse Supplies,45
+27,Croissant (2pc),Bakery,BakeHouse Supplies,70
+28,Muffin Pack (4pc),Bakery,BakeHouse Supplies,120
+29,Cake Slice,Bakery,BakeHouse Supplies,85
+30,Cookies 200g,Bakery,BakeHouse Supplies,65
+31,Premium Face Cream 50g,Personal Care,CarePlus Distributors,450

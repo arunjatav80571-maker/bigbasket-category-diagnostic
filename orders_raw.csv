@@ -1,0 +1,509 @@
+order_id,order_date,customer_name,city,category,product_id,quantity,amount_inr,payment_mode,status,rating
+1,2026-03-09,Dev,Pune,Snacks & Beverages,13,5,175,UPI,Delivered,5
+2,2026-05-22,Ayaan,Bengaluru,Snacks & Beverages,15,1,60,Debit Card,Delivered,5
+3,2026-06-30,Yash,Bengaluru,Household Essentials,25,2,150,UPI,Delivered,2
+4,2026-03-01,Sneha,Hyderabad,Snacks & Beverages,11,1,30,UPI,Delivered,4
+5,2026-04-05,Rohit,Mumbai,Snacks & Beverages,14,2,220,Debit Card,Delivered,3
+6,2026-06-05,Deepak,Mumbai,Bakery,30,1,65,Credit Card,Delivered,2
+7,2026-03-11,Ananya,Pune,Personal Care,19,4,396,Wallet,Delivered,3
+8,2026-01-09,Sneha,Hyderabad,Fruits & Vegetables,2,2,80,Debit Card,Delivered,1
+9,2026-02-24,Aadhya,Hyderabad,Household Essentials,24,3,267,Cash on Delivery,Delivered,4
+10,2026-03-05,Ishaan,Hyderabad,Snacks & Beverages,11,2,60,Wallet,Delivered,5
+11,2026-04-03,Tara,Bengaluru,Household Essentials,25,4,300,Credit Card,Pending,
+12,2026-01-24,Krishna,Mumbai,Household Essentials,21,4,80,UPI,Cancelled,
+13,2026-06-24,Ishaan,Hyderabad,Bakery,27,2,140,Cash on Delivery,Delivered,4
+14,2026-05-16,Aryan,Mumbai,Household Essentials,25,4,300,Debit Card,Pending,
+15,2026-06-24,Aarav,Mumbai,Bakery,30,1,65,Wallet,Delivered,3
+16,2026-02-10,Ayaan,Bengaluru,Snacks & Beverages,11,4,120,Cash on Delivery,Delivered,3
+17,2026-01-28,Karan,Mumbai,Dairy & Eggs,7,5,450,Debit Card,Delivered,5
+18,2026-04-06,Divya,Pune,Dairy & Eggs,8,2,168,Credit Card,Delivered,5
+19,2026-05-06,Aarav,Mumbai,Household Essentials,25,3,225,UPI,Delivered,3
+20,2026-03-03,Siya, Bengaluru , Dairy & Eggs ,9,1,45,Wallet,Cancelled,
+21,2026-05-17,Sai,Hyderabad,Household Essentials,21,1,20,Credit Card,Delivered,4
+22,2026-05-16,Pooja,Bengaluru,Dairy & Eggs,7,3,270,Wallet,Delivered,2
+23,2026-04-13,Nikhil,Pune,Dairy & Eggs,8,3,252,Debit Card,Delivered,5
+24,2026-02-27,Nisha,Mumbai,Fruits & Vegetables,5,2,50,UPI,Delivered,5
+25,2026-02-26,Pooja, Bengaluru , Dairy & Eggs ,9,5,225,UPI,Delivered,1
+26,2026-03-26,Kiara,Pune,Fruits & Vegetables,2,1,40,UPI,Delivered,3
+27,2026-05-19,Vikram,Pune,Household Essentials,21,2,40,Credit Card,Delivered,5
+28,2026-05-02,Neha,Mumbai,Personal Care,20,2,300,Cash on Delivery,Delivered,1
+29,2026-04-19,Vikram,Pune,Personal Care,18,3,120,Cash on Delivery,Delivered,1
+30,2026-01-16,Manish, Bengaluru ,BAKERY,29,1,85,Cash on Delivery,Delivered,1
+31,2026-05-18,Myra,Bengaluru,Dairy & Eggs,8,2,168,Cash on Delivery,Delivered,2
+32,2026-01-20,Navya,Hyderabad,Personal Care,19,2,198,Cash on Delivery,Delivered,5
+33,2026-01-04,Reyansh,Pune,Fruits & Vegetables,2,5,200,UPI,Cancelled,
+34,2026-05-05,Myra,Bengaluru,Dairy & Eggs,7,4,,Cash on Delivery,Delivered,4
+35,2026-01-01,Vihaan,Bengaluru,Dairy & Eggs,7,4,360,Cash on Delivery,Delivered,4
+36,2026-06-19,Riya,Pune,Personal Care,18,5,,Cash on Delivery,Delivered,3
+37,2026-05-19,Aadhya,Hyderabad,Fruits & Vegetables,2,5,200,UPI,Delivered,1
+38,2026-05-09,Vihaan,BENGALURU, Household Essentials ,25,4,300,Wallet,Delivered,5
+39,2026-06-02,Sai,Hyderabad,Dairy & Eggs,7,1,90,UPI,Delivered,2
+40,2026-03-05,Zara,Hyderabad,Fruits & Vegetables,5,5,125,Wallet,Delivered,5
+41,2026-05-25,Sai,Hyderabad,Personal Care,17,5,475,Wallet,Delivered,3
+42,2026-03-03,Aadhya,Hyderabad,Bakery,29,3,255,Debit Card,Delivered,3
+43,2026-01-03,Priya,Hyderabad,Snacks & Beverages,12,1,45,Cash on Delivery,Delivered,5
+44,2026-02-24,Reyansh,Pune,Fruits & Vegetables,3,5,175,Wallet,Delivered,3
+45,2026-03-14,Arjun, Mumbai ,DAIRY & EGGS,10,3,165,Credit Card,Delivered,5
+46,2026-06-17,Kavya,Hyderabad,Snacks & Beverages,12,5,225,Wallet,Delivered,5
+47,2026-02-04,Siya,Bengaluru,Bakery,29,1,85,Debit Card,Delivered,1
+48,2026-03-11,Anjali,Bengaluru,Household Essentials,23,2,290,Debit Card,Delivered,3
+49,2026-05-10,Aadhya,HYDERABAD, Bakery ,30,3,195,Cash on Delivery,Delivered,1
+50,2026-03-12,Sai,Hyderabad,Bakery,27,4,280,UPI,Delivered,2
+51,2026-04-24,Rohit,Mumbai,Snacks & Beverages,11,2,60,Wallet,Delivered,5
+52,2026-06-26,Aarav,Mumbai,Fruits & Vegetables,5,1,25,Credit Card,Delivered,3
+53,2026-04-21,Simran,Hyderabad,Household Essentials,23,2,290,Credit Card,Delivered,3
+54,2026-06-24,Aditya,Pune,Snacks & Beverages,14,2,220,Credit Card,Delivered,3
+55,2026-06-08,Sneha,Hyderabad,Household Essentials,24,4,356,Credit Card,Cancelled,
+56,2026-04-16,Myra,Bengaluru,Dairy & Eggs,7,2,180,UPI,Delivered,3
+57,2026-03-10,Meera,Pune,Bakery,29,2,170,Credit Card,Delivered,1
+58,2026-02-26,Aryan,Mumbai,Fruits & Vegetables,1,4,200,Credit Card,Delivered,4
+59,2026-02-27,Dev,Pune,Snacks & Beverages,12,2,90,UPI,Delivered,4
+60,2026-03-13,Kabir,Hyderabad,Snacks & Beverages,11,1,30,Debit Card,Delivered,4
+61,2026-01-08,Manish,Bengaluru,Household Essentials,22,3,390,UPI,Cancelled,
+62,2026-03-09,Anika,Mumbai,Dairy & Eggs,7,5,450,UPI,Delivered,4
+63,2026-06-05,Dev,Pune,Snacks & Beverages,12,4,180,Wallet,Delivered,5
+64,2026-04-22,Saanvi,Mumbai,Dairy & Eggs,10,1,55,UPI,Delivered,5
+65,2026-04-04,Manish,Bengaluru,Bakery,29,2,170,Cash on Delivery,Delivered,3
+66,2026-03-18,Isha,Bengaluru,Snacks & Beverages,12,1,45,Wallet,Delivered,4
+67,2026-05-22,Rohan,Mumbai,Personal Care,17,3,285,Credit Card,Delivered,4
+68,2026-05-26,Manish,Bengaluru,Dairy & Eggs,7,5,450,Debit Card,Delivered,1
+69,2026-04-21,Siya,Bengaluru,Snacks & Beverages,11,2,60,Wallet,Delivered,3
+70,2026-06-22,Priya,Hyderabad,Personal Care,18,4,160,Credit Card,Delivered,2
+71,2026-05-12,Vikram,Pune,Fruits & Vegetables,3,3,105,Wallet,Delivered,2
+72,2026-02-20,Manish,Bengaluru,Snacks & Beverages,12,2,90,Credit Card,Delivered,2
+73,2026-04-27,Aman,Pune,Bakery,26,1,45,Cash on Delivery,Cancelled,
+74,2026-05-07,Neha,Mumbai,Dairy & Eggs,8,4,336,Cash on Delivery,Delivered,1
+75,2026-02-26,Pallavi,Mumbai,Fruits & Vegetables,5,4,100,Credit Card,Delivered,5
+76,2026-03-05,Priya,Hyderabad,Fruits & Vegetables,2,5,200,UPI,Delivered,4
+77,2026-06-02,Vikram,Pune,Household Essentials,22,5,650,Debit Card,Pending,
+78,2026-04-20,Nisha,mumbai,BAKERY,26,5,225,Wallet,Delivered,2
+79,2026-03-08,Anjali,Bengaluru,Personal Care,20,4,600,Credit Card,Delivered,3
+80,2026-06-10,Sneha,Hyderabad,Household Essentials,22,4,520,Credit Card,Delivered,1
+81,2026-03-11,Kavya,Hyderabad,Snacks & Beverages,11,2,60,Debit Card,Delivered,5
+82,2026-03-01,Sai,Hyderabad,Dairy & Eggs,6,2,120,Cash on Delivery,Delivered,2
+83,2026-03-26,Arjun,Mumbai,Personal Care,17,4,380,Wallet,Delivered,1
+84,2026-05-30,Aadhya,Hyderabad,Personal Care,17,4,380,UPI,Cancelled,
+85,2026-05-03,Pallavi,Mumbai,Household Essentials,25,4,300,UPI,Cancelled,
+86,2026-05-18,Siya,Bengaluru,Snacks & Beverages,15,4,240,Wallet,Delivered,2
+87,2026-04-22,Rahul,Bengaluru,Dairy & Eggs,9,3,135,Cash on Delivery,Delivered,3
+88,2026-02-12,Vikram,Pune,Bakery,30,4,260,Cash on Delivery,Cancelled,
+89,2026-04-11,Isha,Bengaluru,Household Essentials,22,1,130,Wallet,Delivered,1
+90,2026-02-04,Sai,Hyderabad,Bakery,28,4,480,Cash on Delivery,Delivered,3
+91,2026-04-27,Aryan,Mumbai,Snacks & Beverages,12,2,90,Debit Card,Delivered,4
+92,2026-01-21,Navya,Hyderabad,Personal Care,17,3,285,Cash on Delivery,Delivered,5
+93,2026-06-16,Vihaan,Bengaluru,Snacks & Beverages,13,2,70,UPI,Delivered,1
+94,2026-02-21,Pallavi,Mumbai,Fruits & Vegetables,1,2,100,UPI,Delivered,2
+95,2026-05-25,Krishna,Mumbai,Personal Care,20,1,150,Credit Card,Delivered,3
+96,2026-06-05,Sneha,Hyderabad,Snacks & Beverages,15,2,120,Wallet,Pending,
+97,2026-03-21,Kavya,Hyderabad,Fruits & Vegetables,5,2,50,UPI,Delivered,3
+98,2026-04-12,Neha,Mumbai,Bakery,30,4,260,Credit Card,Delivered,2
+99,2026-01-31,Reyansh,Pune,Snacks & Beverages,12,5,225,Wallet,Delivered,3
+100,2026-01-18,Nikhil,Pune,Personal Care,18,3,120,Wallet,Delivered,1
+101,2026-04-21,Meera,Pune,Household Essentials,21,1,20,Debit Card,Delivered,4
+102,2026-02-15,Kavya,Hyderabad,Dairy & Eggs,6,4,240,Wallet,Pending,
+103,2026-05-04,Navya,Hyderabad,Bakery,26,5,225,Cash on Delivery,Delivered,5
+104,2026-01-23,Navya,Hyderabad,Snacks & Beverages,12,2,90,Debit Card,Cancelled,
+105,2026-06-06,Myra,Bengaluru,Personal Care,19,5,495,Cash on Delivery,Delivered,4
+106,2026-02-24,Rohan,Mumbai,Dairy & Eggs,7,4,360,Debit Card,Delivered,3
+107,2026-05-23,Navya,Hyderabad,Household Essentials,25,3,225,UPI,Delivered,2
+108,2026-05-06,Sai,Hyderabad,Dairy & Eggs,9,4,180,Wallet,Delivered,4
+109,2026-01-05,Sanjay,Hyderabad,Household Essentials,21,4,80,UPI,Delivered,4
+110,2026-06-19,Deepak,MUMBAI,DAIRY & EGGS,10,3,165,Wallet,Delivered,5
+111,2026-05-21,Varun,Hyderabad,Snacks & Beverages,13,4,140,Debit Card,Delivered,4
+112,2026-03-01,Navya,Hyderabad,Snacks & Beverages,12,3,135,UPI,Delivered,3
+113,2026-02-19,Ayaan,Bengaluru,Household Essentials,22,2,260,Credit Card,Delivered,3
+114,2026-06-02,Shreya,Pune,Household Essentials,25,5,,Debit Card,Pending,
+115,2026-04-03,Saanvi,Mumbai,Snacks & Beverages,11,2,60,Credit Card,Delivered,5
+116,2026-01-14,Krishna,Mumbai,Snacks & Beverages,11,1,30,Wallet,Delivered,2
+117,2026-01-04,Rohit,Mumbai,Household Essentials,21,1,20,Wallet,Delivered,4
+118,2026-01-14,Nisha,Mumbai,Snacks & Beverages,13,2,70,Debit Card,Cancelled,
+119,2026-04-13,Aman,Pune,Fruits & Vegetables,5,1,25,Cash on Delivery,Delivered,1
+120,2026-03-19,Ishaan,Hyderabad,Dairy & Eggs,6,5,300,UPI,Pending,
+121,2026-06-05,Ayaan,Bengaluru,Household Essentials,23,4,580,Wallet,Delivered,2
+122,2026-04-26,Sneha,Hyderabad,Household Essentials,22,4,520,Cash on Delivery,Delivered,5
+123,2026-06-08,Tara,Bengaluru,Snacks & Beverages,12,5,225,UPI,Delivered,1
+124,2026-03-09,Pallavi,Mumbai,Dairy & Eggs,8,2,168,UPI,Delivered,2
+125,2026-01-01,Pooja,Bengaluru,Fruits & Vegetables,3,2,70,Cash on Delivery,Delivered,5
+126,2026-03-01,Aman,Pune,Snacks & Beverages,11,1,30,Debit Card,Delivered,4
+127,2026-03-09,Arjun,Mumbai,Bakery,30,2,130,Wallet,Delivered,2
+128,2026-02-27,Tara,Bengaluru,Fruits & Vegetables,5,5,125,Credit Card,Cancelled,
+129,2026-02-12,Ishaan,Hyderabad,Fruits & Vegetables,3,1,35,Debit Card,Delivered,5
+130,2026-04-30,Riya,Pune,Personal Care,18,1,40,Debit Card,Delivered,3
+131,2026-04-23,Karan,Mumbai,Household Essentials,23,4,580,UPI,Delivered,4
+132,2026-03-06,Anjali,Bengaluru,Snacks & Beverages,12,5,225,UPI,Delivered,5
+133,2026-05-28,Simran,Hyderabad,Fruits & Vegetables,1,3,150,UPI,Delivered,2
+134,2026-03-13,Aman,Pune,Household Essentials,22,4,520,Credit Card,Pending,
+135,2026-01-24,Tara,Bengaluru,Bakery,27,4,280,Cash on Delivery,Delivered,3
+136,2026-02-11,Rohan,Mumbai,Bakery,29,1,85,Debit Card,Delivered,4
+137,2026-05-21,Riya,Pune,Bakery,29,4,340,UPI,Delivered,3
+138,2026-04-14,Anika,Mumbai,Snacks & Beverages,12,1,45,Wallet,Delivered,1
+139,2026-04-16,Vikram,Pune,Household Essentials,23,4,580,UPI,Delivered,3
+140,2026-01-14,Isha,Bengaluru,Household Essentials,21,4,80,Credit Card,Delivered,2
+141,2026-02-01,Riya,Pune,Personal Care,18,4,160,UPI,Pending,
+142,2026-03-21,Divya,Pune,Dairy & Eggs,9,2,90,Wallet,Delivered,4
+143,2026-04-29,Sai,Hyderabad,Dairy & Eggs,9,1,45,UPI,Delivered,2
+144,2026-06-30,Rahul,Bengaluru,Snacks & Beverages,11,5,150,Debit Card,Delivered,4
+145,2026-05-22,Aman,Pune,Dairy & Eggs,10,4,220,Credit Card,Delivered,5
+146,2026-03-12,Karan,Mumbai,Dairy & Eggs,6,1,60,Cash on Delivery,Delivered,5
+147,2026-03-18,Navya,Hyderabad,Fruits & Vegetables,1,3,150,Wallet,Delivered,4
+148,2026-05-04,Ishaan,Hyderabad,Personal Care,18,5,200,Debit Card,Delivered,5
+149,2026-02-18,Aryan,Mumbai,Personal Care,18,3,120,Credit Card,Delivered,2
+150,2026-03-23,Sneha,Hyderabad,Personal Care,17,1,95,Cash on Delivery,Delivered,4
+151,2026-05-07,Aryan,Mumbai,Bakery,29,2,170,UPI,Delivered,5
+152,2026-01-26,Kabir,Hyderabad,Fruits & Vegetables,4,4,720,Wallet,Cancelled,
+153,2026-06-17,Aarav,Mumbai,Dairy & Eggs,6,4,240,Credit Card,Delivered,3
+154,2026-06-16,Kabir,Hyderabad,Bakery,26,4,180,UPI,Cancelled,
+155,2026-03-23,Manish,Bengaluru,Household Essentials,22,4,520,Cash on Delivery,Cancelled,
+156,2026-03-02,Aditya,Pune,Bakery,26,1,45,Debit Card,Pending,
+157,2026-01-26,Anjali,Bengaluru,Fruits & Vegetables,3,4,140,UPI,Delivered,3
+158,2026-01-15,Vivaan,Hyderabad,Fruits & Vegetables,2,3,120,Debit Card,Delivered,4
+159,2026-04-16,Ishaan,Hyderabad,Dairy & Eggs,10,5,275,Wallet,Delivered,2
+160,2026-06-06,Ananya,Pune,Dairy & Eggs,7,1,90,Cash on Delivery,Delivered,2
+161,2026-03-01,Rahul,Bengaluru,Household Essentials,25,2,150,Cash on Delivery,Delivered,4
+162,2026-04-30,Anika,Mumbai,Bakery,29,1,85,Debit Card,Delivered,2
+163,2026-05-31,Arjun,Mumbai,Personal Care,18,3,120,Debit Card,Delivered,4
+164,2026-03-19,Deepak,Mumbai,Dairy & Eggs,10,4,220,Credit Card,Pending,
+165,2026-04-08,Aman,Pune,Fruits & Vegetables,5,2,50,Wallet,Delivered,3
+166,2026-06-18,Deepak,MUMBAI,SNACKS & BEVERAGES,11,1,30,Cash on Delivery,Delivered,5
+167,2026-05-08,Manish,Bengaluru,Fruits & Vegetables,2,5,200,Debit Card,Delivered,2
+168,2026-06-12,Divya,Pune,Snacks & Beverages,14,2,220,Credit Card,Delivered,2
+169,2026-03-21,Rohit,Mumbai,Fruits & Vegetables,4,1,180,Cash on Delivery,Delivered,3
+170,2026-03-17,Shreya,Pune,Dairy & Eggs,6,1,60,Debit Card,Delivered,2
+171,2026-04-04,Saanvi,Mumbai,Dairy & Eggs,6,5,300,Wallet,Delivered,3
+172,2026-03-17,Ananya,Pune,Dairy & Eggs,10,4,220,Debit Card,Delivered,4
+173,2026-06-23,Arjun,Mumbai,Dairy & Eggs,6,2,4800,Cash on Delivery,Pending,
+174,2026-04-12,Pooja,Bengaluru,Snacks & Beverages,14,1,110,UPI,Delivered,1
+175,2026-05-30,Priya,Hyderabad,Snacks & Beverages,15,3,180,Cash on Delivery,Delivered,3
+176,2026-05-01,Reyansh,Pune,Bakery,30,2,130,UPI,Delivered,5
+177,2026-06-15,Rohan,Mumbai,Bakery,26,2,90,UPI,Delivered,4
+178,2026-01-30,Deepak,Mumbai,Snacks & Beverages,12,4,180,Credit Card,Delivered,1
+179,2026-01-25,Siya,Bengaluru,Household Essentials,21,1,20,Credit Card,Cancelled,
+180,2026-04-05,Krishna,Mumbai,Snacks & Beverages,15,4,240,Wallet,Delivered,2
+181,2026-05-06,Meera,Pune,Bakery,29,1,85,Wallet,Delivered,3
+182,2026-04-24,Aditya,Pune,Snacks & Beverages,15,2,120,Cash on Delivery,Pending,
+183,2026-05-20,Yash,Bengaluru,Fruits & Vegetables,4,3,540,Debit Card,Delivered,3
+184,2026-01-24,Saanvi,Mumbai,Fruits & Vegetables,5,4,100,Credit Card,Delivered,5
+185,2026-03-04,Vivaan,Hyderabad,Fruits & Vegetables,2,3,120,Credit Card,Delivered,2
+186,2026-05-31,Arjun,Mumbai,Household Essentials,23,2,290,Credit Card,Delivered,2
+187,2026-01-01,Kabir,Hyderabad,Dairy & Eggs,6,5,300,Debit Card,Cancelled,
+188,2026-03-06,Ishaan,HYDERABAD,dairy & eggs,6,5,300,Credit Card,Delivered,1
+189,2026-03-02,Krishna,Mumbai,Fruits & Vegetables,1,3,150,Wallet,Delivered,2
+190,2026-04-18,Anika,Mumbai,Fruits & Vegetables,2,2,80,Wallet,Delivered,1
+191,2026-05-12,Aman,Pune,Personal Care,18,3,120,Wallet,Delivered,5
+192,2026-06-18,Kiara,Pune,Bakery,26,1,45,Wallet,Delivered,1
+193,2026-04-20,Vihaan,Bengaluru,Personal Care,20,4,600,UPI,Delivered,4
+194,2026-06-05,Arjun,Mumbai,Fruits & Vegetables,3,3,105,Credit Card,Delivered,3
+195,2026-05-21,Isha,Bengaluru,Bakery,27,5,350,Debit Card,Delivered,5
+196,2026-05-10,Varun,Hyderabad,Snacks & Beverages,11,4,120,Wallet,Delivered,1
+197,2026-02-25,Sanjay,Hyderabad,Bakery,28,5,600,Cash on Delivery,Delivered,2
+198,2026-04-13,Meera,Pune,Snacks & Beverages,13,4,140,Cash on Delivery,Delivered,3
+199,2026-04-06,Tara,Bengaluru,Snacks & Beverages,12,3,5400,Credit Card,Delivered,4
+200,2026-01-24,Arjun,Mumbai,Fruits & Vegetables,3,1,35,Cash on Delivery,Delivered,3
+201,2026-05-31,Krishna,Mumbai,Household Essentials,23,1,145,Wallet,Delivered,1
+202,2026-01-14,Meera,Pune,Snacks & Beverages,14,4,440,Debit Card,Delivered,3
+203,2026-02-24,Reyansh, Pune ,HOUSEHOLD ESSENTIALS,25,5,375,Credit Card,Delivered,2
+204,2026-04-05,Reyansh,Pune,Snacks & Beverages,13,5,175,UPI,Delivered,5
+205,2026-06-09,Kiara,Pune,Personal Care,18,5,200,Wallet,Delivered,5
+206,2026-01-08,Vivaan,Hyderabad,Bakery,26,3,135,Credit Card,Delivered,3
+207,2026-02-16,Kabir,Hyderabad,Snacks & Beverages,13,1,35,Credit Card,Delivered,4
+208,2026-01-24,Arjun,Mumbai,Dairy & Eggs,6,1,60,Wallet,Delivered,4
+209,2026-04-05,Priya,Hyderabad,Snacks & Beverages,13,2,70,Debit Card,Delivered,5
+210,2026-02-09,Divya,Pune,Fruits & Vegetables,3,1,35,Credit Card,Delivered,1
+211,2026-04-24,Manish,Bengaluru,Fruits & Vegetables,3,3,105,Cash on Delivery,Delivered,4
+212,2026-05-12,Meera,Pune,Snacks & Beverages,11,2,60,UPI,Delivered,1
+213,2026-05-05,Riya,Pune,Bakery,30,5,325,Wallet,Delivered,1
+214,2026-01-15,Kiara,Pune,Personal Care,16,5,1100,UPI,Delivered,2
+215,2026-03-16,Sneha, Hyderabad , Dairy & Eggs ,6,3,180,Debit Card,Delivered,4
+216,2026-02-03,Anjali,Bengaluru,Personal Care,18,2,80,Cash on Delivery,Delivered,2
+217,2026-01-19,Karan,Mumbai,Household Essentials,24,3,267,Cash on Delivery,Cancelled,
+218,2026-04-28,Aditya,Pune,Personal Care,18,1,40,UPI,Cancelled,
+219,2026-04-14,Neha,Mumbai,Personal Care,18,5,200,Cash on Delivery,Delivered,4
+220,2026-06-08,Vivaan,Hyderabad,Snacks & Beverages,12,2,90,Cash on Delivery,Delivered,3
+221,2026-03-04,Sai,Hyderabad,Personal Care,18,1,40,Cash on Delivery,Delivered,5
+222,2026-03-28,Sai,Hyderabad,Personal Care,16,3,660,Credit Card,Delivered,2
+223,2026-05-16,Arjun,mumbai,HOUSEHOLD ESSENTIALS,21,1,20,Wallet,Delivered,3
+224,2026-03-02,Dev,Pune,Bakery,28,2,240,UPI,Delivered,2
+225,2026-06-17,Diya,Bengaluru,Bakery,26,2,90,UPI,Delivered,4
+226,2026-04-25,Priya,Hyderabad,Household Essentials,24,5,445,Wallet,Delivered,5
+227,2026-02-08,Rohan,Mumbai,Bakery,27,3,210,Cash on Delivery,Delivered,4
+228,2026-06-01,Rohit,Mumbai,Snacks & Beverages,12,3,135,UPI,Delivered,1
+229,2026-01-10,Siya,Bengaluru,Personal Care,19,4,396,UPI,Delivered,3
+230,2026-06-07,Arjun,Mumbai,Bakery,28,1,120,Wallet,Delivered,4
+231,2026-04-26,Simran,Hyderabad,Household Essentials,23,1,145,Wallet,Delivered,3
+232,2026-02-08,Divya,Pune,Personal Care,20,5,,UPI,Delivered,3
+233,2026-06-15,Kavya,Hyderabad,Fruits & Vegetables,3,5,175,Credit Card,Delivered,4
+234,2026-06-06,Nisha,Mumbai,Household Essentials,22,5,650,Credit Card,Delivered,3
+235,2026-06-23,Aryan,Mumbai,Personal Care,17,3,285,Wallet,Delivered,3
+236,2026-05-23,Arjun,Mumbai,Snacks & Beverages,12,1,45,Cash on Delivery,Delivered,5
+237,2026-05-30,Ishaan,Hyderabad,Snacks & Beverages,13,1,35,Credit Card,Cancelled,
+238,2026-02-03,Siya,Bengaluru,Bakery,29,4,340,Wallet,Delivered,1
+239,2026-06-14,Siya,Bengaluru,Household Essentials,24,4,356,Debit Card,Delivered,5
+240,2026-05-11,Sai,Hyderabad,Bakery,28,4,480,Debit Card,Delivered,3
+241,2026-05-05,Diya,Bengaluru,Dairy & Eggs,9,3,135,Credit Card,Delivered,2
+242,2026-01-26,Ishaan,Hyderabad,Fruits & Vegetables,3,3,105,Wallet,Delivered,5
+243,2026-06-08,Aditya,Pune,Bakery,29,3,255,Credit Card,Delivered,2
+244,2026-02-12,Ananya,Pune,Dairy & Eggs,7,5,450,Cash on Delivery,Delivered,3
+245,2026-06-06,Manish,Bengaluru,Dairy & Eggs,9,4,180,Debit Card,Delivered,4
+246,2026-03-21,Kiara,Pune,Household Essentials,22,2,260,Cash on Delivery,Cancelled,
+247,2026-04-23,Saanvi,Mumbai,Snacks & Beverages,15,5,300,Cash on Delivery,Delivered,4
+248,2026-02-11,Karan,Mumbai,Household Essentials,22,4,520,Credit Card,Delivered,2
+249,2026-04-06,Anika,Mumbai,Fruits & Vegetables,2,4,160,Wallet,Cancelled,
+250,2026-03-14,Kavya,Hyderabad,Household Essentials,22,1,5200,UPI,Delivered,3
+251,2026-04-22,Nisha,Mumbai,Household Essentials,21,2,40,UPI,Cancelled,
+252,2026-01-07,Kiara,Pune,Personal Care,18,3,120,Cash on Delivery,Delivered,5
+253,2026-01-21,Yash,Bengaluru,Dairy & Eggs,9,4,180,Debit Card,Delivered,3
+254,2026-02-07,Reyansh,Pune,Bakery,28,3,360,Credit Card,Delivered,4
+255,2026-04-25,Deepak,Mumbai,Dairy & Eggs,6,4,240,Wallet,Delivered,1
+256,2026-02-08,Vivaan,Hyderabad,Dairy & Eggs,10,2,4400,Wallet,Cancelled,
+257,2026-01-29,Divya,Pune,Household Essentials,22,4,520,Debit Card,Delivered,1
+258,2026-06-13,Vihaan,Bengaluru,Dairy & Eggs,9,4,180,Wallet,Delivered,1
+259,2026-01-05,Rahul,Bengaluru,Household Essentials,25,5,375,Wallet,Delivered,2
+260,2026-06-07,Riya, Pune , Personal Care ,18,1,40,Debit Card,Delivered,4
+261,2026-05-15,Diya,Bengaluru,Bakery,29,1,85,Debit Card,Delivered,5
+262,2026-05-22,Nikhil,Pune,Household Essentials,21,5,100,UPI,Delivered,4
+263,2026-04-06,Aditya,Pune,Bakery,27,4,280,Debit Card,Delivered,3
+264,2026-06-18,Arjun,Mumbai,Snacks & Beverages,13,2,70,UPI,Delivered,3
+265,2026-05-20,Krishna,Mumbai,Fruits & Vegetables,2,3,120,Debit Card,Delivered,2
+266,2026-06-28,Sneha,Hyderabad,Bakery,30,4,260,Cash on Delivery,Delivered,2
+267,2026-03-17,Arjun,Mumbai,Personal Care,19,1,99,Credit Card,Delivered,2
+268,2026-05-12,Aditya,Pune,Snacks & Beverages,12,3,135,Cash on Delivery,Pending,
+269,2026-01-10,Nikhil,Pune,Personal Care,20,3,,Credit Card,Delivered,1
+270,2026-02-01,Sanjay,Hyderabad,Snacks & Beverages,12,3,135,Debit Card,Delivered,4
+271,2026-03-28,Anjali,Bengaluru,Personal Care,18,4,160,Credit Card,Delivered,4
+272,2026-01-22,Yash,Bengaluru,Household Essentials,22,3,390,Cash on Delivery,Delivered,5
+273,2026-03-24,Diya,Bengaluru,Household Essentials,23,3,435,UPI,Delivered,3
+274,2026-04-20,Siya,Bengaluru,Personal Care,18,5,200,Credit Card,Delivered,3
+275,2026-06-07,Nisha,MUMBAI,FRUITS & VEGETABLES,2,3,120,Cash on Delivery,Delivered,1
+276,2026-04-04,Arjun,Mumbai,Bakery,29,4,340,Wallet,Delivered,2
+277,2026-06-23,Vivaan,Hyderabad,Dairy & Eggs,6,5,300,Cash on Delivery,Delivered,1
+278,2026-04-03,Myra,Bengaluru,Bakery,28,3,360,Cash on Delivery,Cancelled,
+279,2026-06-23,Aditya,Pune,Bakery,26,2,90,Cash on Delivery,Cancelled,
+280,2026-05-27,Yash,Bengaluru,Personal Care,18,1,40,Credit Card,Delivered,4
+281,2026-03-05,Rohan,Mumbai,Bakery,28,3,360,UPI,Delivered,2
+282,2026-05-24,Rahul,Bengaluru,Household Essentials,22,4,520,UPI,Delivered,3
+283,2026-06-06,Kavya,Hyderabad,Personal Care,18,2,80,Debit Card,Delivered,4
+284,2026-01-19,Saanvi,Mumbai,Fruits & Vegetables,5,2,50,Cash on Delivery,Delivered,4
+285,2026-06-20,Sai,Hyderabad,Bakery,30,3,195,Debit Card,Delivered,5
+286,2026-02-10,Nikhil,Pune,Snacks & Beverages,11,3,90,Credit Card,Delivered,5
+287,2026-02-05,Kiara,Pune,Fruits & Vegetables,5,2,50,Credit Card,Delivered,1
+288,2026-04-05,Yash,Bengaluru,Household Essentials,23,5,,Cash on Delivery,Delivered,5
+289,2026-01-17,Krishna,Mumbai,Bakery,26,1,45,Debit Card,Delivered,4
+290,2026-05-28,Varun,Hyderabad,Personal Care,17,4,380,UPI,Delivered,3
+291,2026-04-30,Sanjay,Hyderabad,Fruits & Vegetables,3,4,140,Wallet,Delivered,5
+292,2026-02-03,Rohit,Mumbai,Household Essentials,25,2,150,Cash on Delivery,Delivered,1
+293,2026-03-19,Ayaan,Bengaluru,Household Essentials,22,2,260,Credit Card,Delivered,2
+294,2026-01-21,Dev,Pune,Household Essentials,22,3,390,Debit Card,Delivered,5
+295,2026-06-07,Navya,Hyderabad,Dairy & Eggs,6,3,180,Wallet,Delivered,2
+296,2026-02-13,Simran,Hyderabad,Household Essentials,25,2,150,Wallet,Delivered,5
+297,2026-01-08,Kabir,Hyderabad,Household Essentials,24,1,89,UPI,Delivered,5
+298,2026-05-27,Anika,Mumbai,Bakery,28,2,240,Cash on Delivery,Delivered,1
+299,2026-03-16,Rahul,bengaluru,BAKERY,27,5,350,Debit Card,Delivered,4
+300,2026-06-26,Siya,Bengaluru,Personal Care,18,1,40,UPI,Delivered,4
+301,2026-03-29,Aman,Pune,Personal Care,19,2,198,Wallet,Delivered,3
+302,2026-02-03,Shreya,Pune,Snacks & Beverages,13,4,140,Debit Card,Delivered,1
+303,2026-02-01,Rohan,Mumbai,Dairy & Eggs,9,4,180,Debit Card,Delivered,2
+304,2026-04-09,Reyansh,Pune,Fruits & Vegetables,2,3,120,Wallet,Delivered,2
+305,2026-02-18,Rohan,Mumbai,Household Essentials,25,3,,Credit Card,Delivered,5
+306,2026-05-08,Priya,Hyderabad,Household Essentials,21,3,60,UPI,Delivered,4
+307,2026-02-25,Karan,Mumbai,Personal Care,19,2,198,Wallet,Delivered,1
+308,2026-06-17,Riya,Pune,Household Essentials,21,5,100,Cash on Delivery,Delivered,1
+309,2026-03-09,Reyansh,Pune,Personal Care,18,2,80,Debit Card,Delivered,3
+310,2026-05-26,Aditya,Pune,Personal Care,16,1,220,Wallet,Delivered,5
+311,2026-05-10,Riya,Pune,Fruits & Vegetables,3,4,140,Cash on Delivery,Delivered,3
+312,2026-01-31,Isha,Bengaluru,Bakery,30,5,325,Credit Card,Pending,
+313,2026-05-23,Zara,Hyderabad,Snacks & Beverages,15,3,180,Debit Card,Delivered,2
+314,2026-05-09,Divya,Pune,Household Essentials,21,4,80,UPI,Delivered,2
+315,2026-05-13,Kavya,Hyderabad,Snacks & Beverages,13,4,140,Cash on Delivery,Delivered,5
+316,2026-03-23,Krishna,Mumbai,Snacks & Beverages,12,5,225,Credit Card,Delivered,5
+317,2026-03-28,Anjali,Bengaluru,Snacks & Beverages,12,5,225,Wallet,Delivered,5
+318,2026-05-02,Rahul,Bengaluru,Household Essentials,24,3,267,UPI,Delivered,1
+319,2026-06-26,Meera,Pune,Household Essentials,25,3,225,UPI,Delivered,3
+320,2026-02-28,Sanjay,Hyderabad,Household Essentials,25,5,375,UPI,Delivered,2
+321,2026-04-08,Varun,Hyderabad,Bakery,27,5,350,Credit Card,Delivered,2
+322,2026-02-18,Aditya,Pune,Household Essentials,24,1,89,UPI,Delivered,4
+323,2026-04-16,Ishaan,Hyderabad,Personal Care,17,2,7600,Wallet,Delivered,4
+324,2026-05-13,Anjali,Bengaluru,Fruits & Vegetables,2,2,80,Credit Card,Delivered,4
+325,2026-02-14,Varun,Hyderabad,Snacks & Beverages,15,3,180,Cash on Delivery,Cancelled,
+326,2026-06-23,Kabir,Hyderabad,Household Essentials,23,3,435,Debit Card,Delivered,2
+327,2026-03-18,Myra,Bengaluru,Snacks & Beverages,11,5,150,Credit Card,Cancelled,
+328,2026-06-26,Siya,Bengaluru,Snacks & Beverages,11,2,60,Cash on Delivery,Delivered,3
+329,2026-02-01,Pooja,Bengaluru,Snacks & Beverages,11,3,90,Wallet,Delivered,4
+330,2026-03-16,Zara,Hyderabad,Snacks & Beverages,13,2,70,UPI,Delivered,1
+331,2026-05-03,Dev,Pune,Personal Care,18,3,120,Credit Card,Delivered,5
+332,2026-02-05,Navya,Hyderabad,Household Essentials,24,3,267,UPI,Delivered,5
+333,2026-06-21,Myra,Bengaluru,Dairy & Eggs,10,1,,Wallet,Delivered,2
+334,2026-03-26,Vihaan,BENGALURU, Fruits & Vegetables ,4,4,720,Cash on Delivery,Delivered,2
+335,2026-04-15,Aarav,Mumbai,Household Essentials,23,2,290,Cash on Delivery,Delivered,2
+336,2026-03-15,Pallavi,Mumbai,Snacks & Beverages,11,3,90,UPI,Cancelled,
+337,2026-03-01,Sai,Hyderabad,Bakery,28,5,600,Wallet,Delivered,1
+338,2026-01-10,Diya,Bengaluru,Personal Care,17,2,190,Cash on Delivery,Delivered,2
+339,2026-01-03,Anjali,Bengaluru,Snacks & Beverages,11,1,30,Debit Card,Delivered,1
+340,2026-06-14,Kabir,Hyderabad,Snacks & Beverages,11,4,120,Wallet,Delivered,2
+341,2026-02-19,Karan,Mumbai,Personal Care,19,3,297,UPI,Delivered,4
+342,2026-01-04,Sanjay,Hyderabad,Dairy & Eggs,10,2,110,Debit Card,Delivered,5
+343,2026-06-06,Manish,Bengaluru,Dairy & Eggs,8,2,168,Cash on Delivery,Delivered,5
+344,2026-06-21,Rohan,Mumbai,Fruits & Vegetables,3,4,140,UPI,Delivered,2
+345,2026-01-02,Aman,Pune,Snacks & Beverages,12,2,90,Debit Card,Delivered,4
+346,2026-03-19,Pallavi,Mumbai,Snacks & Beverages,11,3,90,Wallet,Delivered,1
+347,2026-06-27,Anika,Mumbai,Bakery,29,3,255,Credit Card,Delivered,1
+348,2026-04-14,Priya,Hyderabad,Snacks & Beverages,12,2,90,Wallet,Cancelled,
+349,2026-06-13,Kavya,Hyderabad,Snacks & Beverages,12,1,45,Debit Card,Delivered,2
+350,2026-02-09,Kiara,Pune,Dairy & Eggs,6,4,240,Cash on Delivery,Delivered,5
+351,2026-05-01,Yash,Bengaluru,Personal Care,17,5,475,Wallet,Delivered,2
+352,2026-01-21,Pallavi,Mumbai,Dairy & Eggs,10,5,275,Wallet,Delivered,3
+353,2026-01-16,Arjun,Mumbai,Household Essentials,24,1,89,Wallet,Cancelled,
+354,2026-02-08,Saanvi,Mumbai,Household Essentials,24,5,445,Credit Card,Delivered,5
+355,2026-05-30,Nisha,Mumbai,Fruits & Vegetables,5,2,50,Cash on Delivery,Delivered,5
+356,2026-02-03,Nisha,Mumbai,Fruits & Vegetables,2,4,160,Wallet,Delivered,5
+357,2026-06-22,Vihaan,Bengaluru,Household Essentials,24,4,356,Debit Card,Delivered,4
+358,2026-05-29,Anika,Mumbai,Fruits & Vegetables,1,2,100,UPI,Delivered,3
+359,2026-01-16,Deepak,Mumbai,Fruits & Vegetables,2,5,200,UPI,Pending,
+360,2026-04-15,Aman,Pune,Fruits & Vegetables,1,3,150,Credit Card,Delivered,4
+361,2026-04-07,Yash,Bengaluru,Snacks & Beverages,15,4,240,Cash on Delivery,Delivered,5
+362,2026-01-31,Krishna,Mumbai,Bakery,29,3,255,Credit Card,Pending,
+363,2026-02-27,Zara,Hyderabad,Household Essentials,22,2,260,UPI,Delivered,3
+364,2026-04-19,Priya,Hyderabad,Bakery,30,5,325,Wallet,Delivered,2
+365,2026-02-09,Myra,Bengaluru,Personal Care,19,3,297,Debit Card,Delivered,1
+366,2026-06-07,Aditya,Pune,Bakery,29,4,,UPI,Delivered,1
+367,2026-04-25,Reyansh,Pune,Household Essentials,25,1,75,Wallet,Delivered,1
+368,2026-04-23,Myra,Bengaluru,Fruits & Vegetables,2,4,160,Credit Card,Delivered,1
+369,2026-03-01,Krishna,Mumbai,Household Essentials,21,3,60,Wallet,Delivered,5
+370,2026-03-02,Sneha,Hyderabad,Bakery,30,3,195,Debit Card,Cancelled,
+371,2026-04-16,Vikram,Pune,Household Essentials,22,2,260,Debit Card,Delivered,5
+372,2026-05-23,Simran,Hyderabad,Dairy & Eggs,7,4,360,Cash on Delivery,Delivered,3
+373,2026-05-15,Sanjay,Hyderabad,Bakery,29,4,340,Debit Card,Delivered,4
+374,2026-02-17,Ishaan,Hyderabad,Snacks & Beverages,12,4,180,Wallet,Delivered,2
+375,2026-01-15,Siya,Bengaluru,Dairy & Eggs,6,4,240,Wallet,Delivered,4
+376,2026-04-10,Pooja,Bengaluru,Household Essentials,22,2,260,Credit Card,Delivered,3
+377,2026-04-05,Sanjay,Hyderabad,Fruits & Vegetables,3,4,140,UPI,Delivered,2
+378,2026-06-22,Vihaan,Bengaluru,Snacks & Beverages,11,4,120,Wallet,Delivered,1
+379,2026-02-25,Saanvi,Mumbai,Household Essentials,25,5,375,Cash on Delivery,Delivered,3
+380,2026-02-18,Siya,Bengaluru,Fruits & Vegetables,1,2,100,UPI,Delivered,4
+381,2026-04-12,Myra,Bengaluru,Bakery,26,2,90,Credit Card,Delivered,3
+382,2026-06-16,Aryan,Mumbai,Personal Care,19,5,495,Debit Card,Delivered,3
+383,2026-01-26,Karan,Mumbai,Household Essentials,21,4,80,Cash on Delivery,Delivered,3
+384,2026-04-16,Aadhya,Hyderabad,Snacks & Beverages,15,3,180,UPI,Delivered,2
+385,2026-03-08,Anjali,Bengaluru,Dairy & Eggs,6,1,60,Wallet,Cancelled,
+386,2026-02-09,Simran,Hyderabad,Personal Care,17,3,285,Credit Card,Delivered,4
+387,2026-05-21,Neha,Mumbai,Dairy & Eggs,10,4,220,Debit Card,Delivered,4
+388,2026-04-28,Shreya,Pune,Bakery,28,4,480,Credit Card,Delivered,3
+389,2026-05-06,Ananya,Pune,Dairy & Eggs,6,5,300,Credit Card,Cancelled,
+390,2026-05-15,Nikhil,Pune,Bakery,28,1,120,UPI,Delivered,1
+391,2026-04-16,Vikram,Pune,Fruits & Vegetables,2,1,40,Credit Card,Delivered,2
+392,2026-02-25,Arjun,Mumbai,Dairy & Eggs,6,1,60,Wallet,Delivered,1
+393,2026-05-04,Isha,Bengaluru,Bakery,27,5,350,Cash on Delivery,Delivered,5
+394,2026-01-05,Pooja,Bengaluru,Personal Care,17,1,95,Wallet,Delivered,5
+395,2026-06-28,Riya,Pune,Fruits & Vegetables,1,5,250,Cash on Delivery,Delivered,2
+396,2026-02-08,Reyansh,Pune,Fruits & Vegetables,4,5,900,Credit Card,Delivered,5
+397,2026-04-12,Anika,Mumbai,Snacks & Beverages,14,3,330,UPI,Delivered,4
+398,2026-06-28,Priya,Hyderabad,Household Essentials,24,2,178,Credit Card,Delivered,1
+399,2026-01-24,Sanjay,Hyderabad,Bakery,28,1,120,Cash on Delivery,Delivered,5
+400,2026-06-29,Aman,Pune,Fruits & Vegetables,2,1,40,Credit Card,Delivered,4
+401,2026-01-25,Sanjay,Hyderabad,Snacks & Beverages,12,5,225,Wallet,Cancelled,
+402,2026-05-02,Kiara,Pune,Dairy & Eggs,9,5,225,Debit Card,Delivered,1
+403,2026-05-25,Manish,Bengaluru,Snacks & Beverages,11,5,150,UPI,Delivered,3
+404,2026-02-06,Vivaan,Hyderabad,Dairy & Eggs,8,5,420,Cash on Delivery,Cancelled,
+405,2026-03-03,Siya,Bengaluru,Dairy & Eggs,7,5,450,Wallet,Delivered,4
+406,2026-04-09,Manish,Bengaluru,Household Essentials,23,3,435,Credit Card,Delivered,1
+407,2026-01-26,Karan,Mumbai,Snacks & Beverages,13,1,35,Cash on Delivery,Delivered,1
+408,2026-06-02,Kabir,Hyderabad,Bakery,26,5,225,Cash on Delivery,Pending,
+409,2026-04-26,Rohan,Mumbai,Fruits & Vegetables,1,3,150,Cash on Delivery,Delivered,5
+410,2026-06-24,Aryan,Mumbai,Personal Care,18,2,80,Wallet,Delivered,1
+411,2026-03-05,Sneha,Hyderabad,Bakery,26,3,135,UPI,Delivered,2
+412,2026-04-10,Aryan,Mumbai,Bakery,27,2,140,Debit Card,Delivered,1
+413,2026-04-03,Aarav,Mumbai,Snacks & Beverages,12,4,180,Debit Card,Delivered,1
+414,2026-05-23,Diya,Bengaluru,Personal Care,18,4,160,Wallet,Delivered,1
+415,2026-05-22,Vivaan,Hyderabad,Fruits & Vegetables,3,3,,UPI,Delivered,3
+416,2026-04-16,Aryan,Mumbai,Fruits & Vegetables,1,3,150,Cash on Delivery,Delivered,5
+417,2026-02-13,Myra,Bengaluru,Household Essentials,24,5,445,Cash on Delivery,Delivered,3
+418,2026-02-07,Siya,Bengaluru,Snacks & Beverages,11,4,120,UPI,Delivered,3
+419,2026-01-20,Meera,Pune,Snacks & Beverages,12,4,180,Debit Card,Delivered,2
+420,2026-06-02,Shreya,Pune,Bakery,27,4,280,Wallet,Delivered,1
+421,2026-04-12,Krishna, Mumbai ,snacks & beverages,12,1,45,Debit Card,Delivered,4
+422,2026-04-21,Kabir,Hyderabad,Personal Care,18,3,120,Wallet,Delivered,3
+423,2026-03-22,Divya,Pune,Dairy & Eggs,8,4,336,Credit Card,Pending,
+424,2026-05-28,Rohan,Mumbai,Snacks & Beverages,11,4,120,Credit Card,Delivered,3
+425,2026-05-25,Zara,Hyderabad,Snacks & Beverages,14,1,110,Credit Card,Delivered,5
+426,2026-01-07,Diya,Bengaluru,Bakery,30,5,325,Cash on Delivery,Cancelled,
+427,2026-06-27,Aadhya,Hyderabad,Personal Care,18,3,120,UPI,Delivered,4
+428,2026-06-12,Manish,Bengaluru,Household Essentials,21,2,40,Debit Card,Delivered,2
+429,2026-01-19,Kavya,Hyderabad,Personal Care,18,4,160,Cash on Delivery,Pending,
+430,2026-05-17,Aman,Pune,Household Essentials,25,4,300,Wallet,Cancelled,
+431,2026-01-10,Deepak,Mumbai,Personal Care,17,5,475,Debit Card,Delivered,5
+432,2026-01-28,Divya,Pune,Bakery,27,1,70,Credit Card,Delivered,3
+433,2026-01-12,Ananya,Pune,Bakery,28,5,600,Wallet,Pending,
+434,2026-03-26,Manish,Bengaluru,Bakery,28,4,480,Cash on Delivery,Delivered,1
+435,2026-05-13,Anika,Mumbai,Dairy & Eggs,9,5,225,Wallet,Delivered,5
+436,2026-04-11,Kiara,Pune,Personal Care,18,3,120,Cash on Delivery,Delivered,5
+437,2026-03-30,Deepak,Mumbai,Household Essentials,21,2,40,UPI,Delivered,3
+438,2026-02-06,Meera,Pune,Fruits & Vegetables,3,1,35,Debit Card,Delivered,4
+439,2026-03-31,Aadhya,Hyderabad,Household Essentials,22,4,520,Cash on Delivery,Delivered,4
+440,2026-01-12,Rohan,Mumbai,Fruits & Vegetables,2,3,120,UPI,Delivered,3
+441,2026-03-04,Sanjay,Hyderabad,Fruits & Vegetables,5,2,50,Wallet,Delivered,2
+442,2026-04-29,Kabir,Hyderabad,Household Essentials,24,4,356,Credit Card,Delivered,2
+443,2026-04-12,Diya,Bengaluru,Bakery,27,4,280,UPI,Delivered,2
+444,2026-04-10,Nisha,Mumbai,Household Essentials,25,4,300,UPI,Delivered,2
+445,2026-01-27,Navya,Hyderabad,Fruits & Vegetables,2,5,200,Wallet,Delivered,3
+446,2026-03-09,Saanvi,Mumbai,Personal Care,19,1,99,Cash on Delivery,Delivered,3
+447,2026-04-11,Divya,Pune,Snacks & Beverages,15,5,300,Wallet,Delivered,3
+448,2026-06-22,Priya,Hyderabad,Bakery,26,2,90,Debit Card,Cancelled,
+449,2026-03-22,Simran,Hyderabad,Fruits & Vegetables,3,2,70,UPI,Delivered,1
+450,2026-05-11,Diya,Bengaluru,Snacks & Beverages,15,2,120,Cash on Delivery,Delivered,2
+451,2026-02-17,Neha,Mumbai,Snacks & Beverages,15,4,240,Cash on Delivery,Delivered,2
+452,2026-03-15,Pooja,Bengaluru,Dairy & Eggs,7,4,360,Credit Card,Delivered,4
+453,2026-01-03,Isha,Bengaluru,Fruits & Vegetables,2,3,120,Cash on Delivery,Delivered,4
+454,2026-04-15,Pooja,Bengaluru,Household Essentials,21,4,80,Cash on Delivery,Delivered,4
+455,2026-05-25,Rahul,Bengaluru,Dairy & Eggs,7,1,90,UPI,Delivered,2
+456,2026-02-27,Riya,Pune,Fruits & Vegetables,1,3,150,Wallet,Delivered,4
+457,2026-05-11,Neha,Mumbai,Household Essentials,21,5,100,UPI,Delivered,3
+458,2026-05-19,Sneha,Hyderabad,Household Essentials,23,3,435,UPI,Delivered,4
+459,2026-01-27,Nikhil,Pune,Dairy & Eggs,9,4,180,Credit Card,Delivered,1
+460,2026-01-23,Nisha,Mumbai,Snacks & Beverages,11,3,90,Cash on Delivery,Cancelled,
+461,2026-05-31,Ayaan,Bengaluru,Dairy & Eggs,9,2,90,Debit Card,Cancelled,
+462,2026-02-12,Isha,Bengaluru,Bakery,27,4,280,Wallet,Delivered,2
+463,2026-03-31,Aadhya,Hyderabad,Fruits & Vegetables,2,5,200,Wallet,Delivered,5
+464,2026-03-16,Ananya,Pune,Snacks & Beverages,12,3,135,Wallet,Delivered,5
+465,2026-04-16,Manish,Bengaluru,Fruits & Vegetables,4,2,360,UPI,Pending,
+466,2026-03-05,Sanjay, Hyderabad ,dairy & eggs,6,2,120,Credit Card,Delivered,2
+467,2026-05-06,Pallavi,Mumbai,Bakery,30,4,260,Credit Card,Delivered,3
+468,2026-04-26,Rohit,Mumbai,Personal Care,17,4,380,UPI,Delivered,1
+469,2026-06-27,Zara,Hyderabad,Household Essentials,21,3,60,Debit Card,Delivered,4
+470,2026-01-24,Rohan,Mumbai,Household Essentials,25,1,75,Cash on Delivery,Delivered,3
+471,2026-02-25,Arjun,Mumbai,Household Essentials,22,4,520,Cash on Delivery,Delivered,4
+472,2026-03-28,Navya,Hyderabad,Snacks & Beverages,12,3,135,Wallet,Delivered,5
+473,2026-01-12,Rahul,Bengaluru,Snacks & Beverages,13,1,35,UPI,Delivered,4
+474,2026-04-23,Vivaan,Hyderabad,Fruits & Vegetables,5,2,50,Cash on Delivery,Delivered,4
+475,2026-02-10,Saanvi,Mumbai,Dairy & Eggs,6,3,180,Debit Card,Delivered,3
+476,2026-06-20,Anika,Mumbai,Fruits & Vegetables,3,3,105,Credit Card,Delivered,3
+477,2026-06-17,Shreya,Pune,Dairy & Eggs,9,4,180,UPI,Delivered,1
+478,2026-02-03,Aadhya,Hyderabad,Personal Care,20,1,150,Wallet,Delivered,4
+479,2026-01-31,Aarav,Mumbai,Fruits & Vegetables,1,3,150,Cash on Delivery,Delivered,4
+480,2026-01-23,Arjun,Mumbai,Dairy & Eggs,9,4,180,UPI,Delivered,3
+481,2026-02-04,Siya,Bengaluru,Dairy & Eggs,6,4,240,Credit Card,Delivered,5
+482,2026-04-23,Aarav,Mumbai,Bakery,26,2,90,Debit Card,Delivered,2
+483,2026-02-25,Meera,Pune,Bakery,26,4,180,UPI,Cancelled,
+484,2026-04-09,Krishna,Mumbai,Fruits & Vegetables,5,5,125,Debit Card,Pending,
+485,2026-03-12,Rohan,Mumbai,Dairy & Eggs,6,2,120,UPI,Delivered,5
+486,2026-06-26,Divya,PUNE, Bakery ,26,3,135,UPI,Delivered,3
+487,2026-05-11,Aadhya,Hyderabad,Household Essentials,22,5,650,Credit Card,Delivered,3
+488,2026-05-07,Sanjay,Hyderabad,Fruits & Vegetables,2,2,80,Cash on Delivery,Delivered,4
+489,2026-05-16,Rohit,Mumbai,Household Essentials,25,1,75,UPI,Pending,
+490,2026-05-26,Rohan,Mumbai,Dairy & Eggs,6,4,240,Cash on Delivery,Delivered,2
+491,2026-01-05,Pallavi,Mumbai,Personal Care,19,1,99,Wallet,Delivered,3
+492,2026-04-12,Aadhya,Hyderabad,Fruits & Vegetables,2,1,40,Wallet,Delivered,5
+493,2026-06-29,Sneha,Hyderabad,Personal Care,17,4,380,Cash on Delivery,Delivered,5
+494,2026-03-13,Nikhil,Pune,Bakery,26,2,90,UPI,Delivered,5
+495,2026-03-25,Aadhya,Hyderabad,Dairy & Eggs,6,5,300,Cash on Delivery,Delivered,1
+496,2026-01-15,Siya,Bengaluru,Personal Care,18,2,80,Credit Card,Delivered,4
+497,2026-06-05,Ayaan,Bengaluru,Personal Care,18,5,200,UPI,Delivered,2
+498,2026-06-29,Ayaan,Bengaluru,Fruits & Vegetables,1,2,100,UPI,Delivered,3
+499,2026-02-12,Varun,Hyderabad,Household Essentials,22,3,390,Debit Card,Delivered,3
+500,2026-03-27,Shreya,Pune,Fruits & Vegetables,5,1,25,Cash on Delivery,Delivered,1
+165,2026-04-08,Aman,Pune,Fruits & Vegetables,5,2,50,Wallet,Delivered,3
+139,2026-04-16,Vikram,Pune,Household Essentials,23,4,580,UPI,Delivered,3
+440,2026-01-12,Rohan,Mumbai,Fruits & Vegetables,2,3,120,UPI,Delivered,3
+102,2026-02-15,Kavya,Hyderabad,Dairy & Eggs,6,4,240,Wallet,Pending,
+389,2026-05-06,Ananya,Pune,Dairy & Eggs,6,5,300,Credit Card,Cancelled,
+433,2026-01-12,Ananya,Pune,Bakery,28,5,600,Wallet,Pending,
+136,2026-02-11,Rohan,Mumbai,Bakery,29,1,85,Debit Card,Delivered,4
+50,2026-03-12,Sai,Hyderabad,Bakery,27,4,280,UPI,Delivered,2
