@@ -1,13 +1,44 @@
 # BigBasket Category Diagnostic
 
-This project analyzes BigBasket category performance using SQL and Python.
+A data-analysis project that studies BigBasket-style product, customer, order, and category revenue data using Python, SQLite, SQL, CSV, Excel, and Tableau.
 
-## Files
+## Project Objective
 
-- `generate_data.py` - Generates project data
-- `02_aggregation_joins.sql` - SQL analysis queries
-- `verify.sql` - Data verification queries
+The objective of this project is to:
 
-## Project Status
+- Generate realistic BigBasket order and product data
+- Analyze category-wise revenue and order performance
+- Practice SQL joins, aggregation, filtering, and verification
+- Prepare revenue data for Excel and Tableau visualization
 
-Initial capstone submission.
+## Technologies Used
+
+- Python
+- SQLite
+- SQL
+- CSV
+- Microsoft Excel
+- Tableau
+
+Improve README documentation
+
+  ## Project Objective
+
+The objective of this project is to:
+
+- Generate realistic BigBasket order and product data
+- Analyze category-wise revenue and order performance
+- Practice SQL joins, aggregation, filtering, and verification
+- Prepare revenue data for Excel and Tableau visualization
+
+## Technologies Used
+
+- Python
+- SQLite
+- SQL
+- CSV
+- Microsoft Excel
+- Tableau
+- CSV
+- Microsoft Excel
+- Tableau
